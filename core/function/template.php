@@ -35,7 +35,7 @@ function block(string $name, $inlineData = false)
 
     renderRecordStart();
 
-    if ($inlineData === true)
+    if ($inlineData !== false)
     {
         if (is_string($inlineData) === true)
         {
